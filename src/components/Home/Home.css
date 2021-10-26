@@ -1,0 +1,42 @@
+.home {
+  background: url("../../assets/img/justin-schwartfigure-azY9SgIIzuI-unsplash.jpg");
+  background: url("../../assets/img/pexels-johannes-plenio-2259232.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.493);
+}
+.my_shadow {
+  box-shadow: 5px 5px 15px rgba(20, 19, 19, 0.493);
+  border-radius: 12px;
+  padding: 5px 0;
+  background: rgba(255, 255, 255, 0.459);
+  /* color: rgba(255, 102, 0, 0.885); */
+}
+.touch,
+.free {
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .title {
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .free {
+    margin: 0 0;
+  }
+  .touch {
+    margin-left: 2rem;
+  }
+
+  .title {
+    margin-left: 2rem !important;
+  }
+  .title-text {
+    margin-right: 5rem !important;
+  }
+}

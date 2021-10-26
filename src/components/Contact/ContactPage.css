@@ -1,0 +1,40 @@
+.contactpage {
+  background: url("../../assets/img/justin-schwartfigure-azY9SgIIzuI-unsplash.jpg");
+  background: url("../../assets/img/pexels-amine-m'siouri-3284167.jpg");
+  background: url("../../assets/img/pexels-johannes-plenio-2259232.jpg");
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.contactoverlay {
+  background: rgba(0, 0, 0, 0.527);
+  color: white;
+}
+
+#name,
+#email,
+#message {
+  background-color: transparent;
+  color: aliceblue !important;
+}
+.home_contact #name,
+.home_contact #email,
+.home_contact #message {
+  background-color: transparent;
+  color: rgb(20, 89, 150) !important;
+}
+
+.home_contact #name::placeholder,
+.home_contact #email::placeholder,
+.home_contact #message::placeholder {
+  color: rgb(35, 35, 36) !important;
+}
+#name::placeholder,
+#email::placeholder,
+#message::placeholder {
+  color: rgb(231, 231, 238) !important;
+}
+
+.map {
+  overflow-x: scroll !important;
+}
